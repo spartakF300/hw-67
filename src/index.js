@@ -6,7 +6,7 @@ import reducer from "./reducer";
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {Provider} from "react-redux";
-const store = createStore(reducer)
+const store = createStore(reducer);
 const app = (
     <Provider store={store}>
     <App />
